@@ -4,7 +4,7 @@ module Freee
   module Api
     class Quotations
       # 見積書API用PATH
-      PATH = '/api/1/quotations'
+      PATH = '/iv/quotations'
       PATH.freeze
 
       # A new instance of HTTP Client.
@@ -17,7 +17,7 @@ module Freee
       end
 
       # 見積書の作成
-      # https://developer.freee.co.jp/docs/accounting/reference#/Quotations/get_quotations
+      # https://developer.freee.co.jp/reference/iv/reference#operations-tag-Quotations
       # @param access_token [String] アクセストークン
       # @param params [Hash] 新規作成用の見積書パラメータ
       # @return [Hash] POSTレスポンスの結果

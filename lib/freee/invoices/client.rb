@@ -4,7 +4,7 @@ module Freee
   module Api
     class Invoices
       # 請求書API用PATH
-      PATH = '/api/1/invoices'
+      PATH = '/iv/invoices'
       PATH.freeze
 
       # A new instance of HTTP Client.
@@ -17,7 +17,7 @@ module Freee
       end
 
       # 請求書の作成
-      # https://developer.freee.co.jp/docs/accounting/reference#/Invoices/create_invoice
+      # https://developer.freee.co.jp/reference/iv/reference#operations-tag-Invoices
       # @param access_token [String] アクセストークン
       # @param params [Hash] 新規作成用の請求書パラメータ
       # @return [Hash] POSTレスポンスの結果
